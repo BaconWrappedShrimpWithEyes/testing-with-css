@@ -22,13 +22,13 @@ label {
 }
 
 input:invalid + span:after {
-    content: '✖';
+    content: 'x';
     color: #f00;
     padding-left: 5px;
 }
 
 input:valid + span:after {
-    content: '✓';
+    content: '/';
     color: #26b72b;
     padding-left: 5px;
 }
